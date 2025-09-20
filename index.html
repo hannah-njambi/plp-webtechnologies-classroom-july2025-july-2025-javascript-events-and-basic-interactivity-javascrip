@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 6 Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Web Page</h1>
+
+  <!-- Interactive Section 1: Toggle Content -->
+  <section>
+    <h2>Show/Hide Information</h2>
+    <button id="toggleBtn">Toggle Info</button>
+    <p id="infoText" style="display:none;">This is some hidden content you can show or hide!</p>
+  </section>
+
+  <!-- Interactive Section 2: Counter -->
+  <section>
+    <h2>Click Counter</h2>
+    <button id="countBtn">Click Me!</button>
+    <p>Button clicked <span id="count">0</span> times.</p>
+  </section>
+
+  <!-- Custom Form -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter username"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter email"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password"><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formFeedback"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
